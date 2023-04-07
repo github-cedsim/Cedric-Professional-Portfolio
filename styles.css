@@ -1,11 +1,178 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: 150px 200px 200px;
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap
+* { 
+    box-sizing: content-box; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: solid 1px red;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1a139e;
+    background-color: fff;
+}
+
+img {
+    max-width: max-content 100%;
 
 }
 
-.grid-item1 {
-    grid-area: header;
+h1 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    background-color: aqua;
+    color: rgb(54, 50, 50);
+
 }
+
+navbar h1 {
+    background-color: aqua;
+}
+
+header h2 {
+    display: flexbox;
+    background-color: aqua;
+    padding-bottom: 15px;
+    
+}
+
+.header .banner-text {
+    display:flex;
+    font-size: 15px;
+    align-items: flex-end;
+    justify-content: right;
+    margin-top: -5%;
+    
+}
+
+.navbar  {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 50, 50);
+    color: fff;
+} 
+
+ul {
+    display: flex;
+    margin-right: 15px;
+}
+
+li {
+    margin:10px; 
+}
+
+a {
+    color: aqua;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-top: 30px;
+    /* width: 200px; */
+    align-items: center;
+    
+    /* padding-top: 40px; */
+}
+
+/* .side-container {
+    padding: 8px;
+    display: block;
+    font-size: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 100%;
+} */
+
+/* About Me*/
+.sidebar1 {
+    border-right: 2px black solid;
+    height: 50px;
+
+}
+
+.sidebar1 h2 {
+    margin-top: 10px;
+}
+
+.sidebar2 {
+    border-right: 2px #000 solid;
+    height: 50px;
+}
+
+.sidebar2 h2 {
+    margin-top: 10px;
+}
+
+.banner-text h2 {
+    display: flex;
+    
+    color: rgb(54, 50, 50);
+}
+
+p {
+    width: 750px;
+    /* margin-bottom: 400px;
+    margin-top: 350px; */
+    
+}
+
+.box {
+    right: 150px;
+    margin-left: 135%;
+    font-size: 18px;
+    box-sizing: content-box;
+    align-content: center;
+    justify-content: top;
+    width: 100%;
+    padding-top: 100px;
+    
+}
+.box1 img {
+    width: 750px;
+    height: 350px;
+    margin-left: 600px;
+    
+
+}
+
+footer {
+    font-size: 18px;
+    display: flex;
+    margin-left: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between 0;
+    align-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+}
+.box-container {
+    display: flex; 
+    padding: 50px;
+    border: 5px;
+    height: 30px;
+    width: ;
+    align-content: left;
+    border-color: aqua;
+    
+}
+*/
+/*
+.boxes {}
+*/
