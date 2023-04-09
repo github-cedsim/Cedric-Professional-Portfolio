@@ -1,1 +1,2 @@
 # Cedric-Professional-Portfolio
+This is a professional portfolio for Cedric Simpkins the purpose is to show my skills and abilities as a developer. This portfolio will be updated as I continue to learn and grow as a developer.  the link to the portfolio is https://cedric-simpkins.github.io/Cedric-Professional-Portfolio/.   

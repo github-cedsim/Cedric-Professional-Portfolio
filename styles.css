@@ -37,6 +37,7 @@ navbar h1 {
 
 .header {
     position: relative;
+    
 }
 
 header h2 {
@@ -47,15 +48,25 @@ header h2 {
 }
 
 .header .banner-text {
-    display:flex;
+    display: flex;
     font-size: 15px;
-    align-items: flex-end;
-    justify-content: right;
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 130px;
+    right: 25px;
+    
 }
 
+
+.header .img-wrapper {
+    display: flex;
+    height: 15%;
+    width: 15%;
+    position: relative;
+    bottom: 104px;
+    left: 125px;
+    margin: -100px;
+    
+}
 .navbar  {
     font-size: 18px;
     display: flex;
@@ -90,19 +101,14 @@ a {
     margin-bottom: 20px;
 }
 
-/* .side-container {
-    padding: 8px;
-    display: block;
-    font-size: 24px;
-    flex-wrap: wrap;
-    margin-bottom: 100%;
-} */
 
 /* About Me*/
+
 .sidebar1 {
     border-right: 3px black solid;
     margin-right: 30px;
     width: 20%;
+    top: 50px;
 }
 
 .sidebar1-desc {
